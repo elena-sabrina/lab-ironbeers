@@ -1,1 +1,11 @@
-<h1>RANDOM BEERS</h1>
+
+{{#each randombeer}}
+    <p>{{ this.image_url }}</p>
+    <p>{{ this.name }}</p>
+    <p>{{ this.description }}</p>
+    <p>{{ this.tagline }}</p>  
+
+    <p>{{this.food_pairing}}</p>  
+    <p>{{this.brewers_tips}}</p>  
+
+{{/each}}
