@@ -1,0 +1,14 @@
+
+<a href="/beers/beer-123124">
+    <div class="beerlist">
+    {{#each beerslist}}
+        <div class="beer">
+            {{>beerpartial}}
+            <p>{{this.brewers_tips}}</p> 
+            <p>{{this.ingredients }}</p>
+            <p>{{this.food_pairing}}</p>  
+        </div>
+    {{/each}}
+</div>
+
+ 
