@@ -1,12 +1,17 @@
 <a href="">
-    <div class="beerlist">
-        {{#each beerslist}}
-        <div class="beer">
-        {{>beerpartial}}
-
-
-
-  
+ <div class="beerlist">
+    {{#each beerslist}}
+        <div class="card" style="width: 18rem;"></div>
+            <img src="{{this.image_url}}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{this.name}}</h5>
+                <p class="card-text">{{this.first_brewed}}</p>
+                <p class="card-text">{{this.description}}</p>
+                <p class="card-text">{{this.tagline}}</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
         </div>
     {{/each}}
 </div>
+
+
