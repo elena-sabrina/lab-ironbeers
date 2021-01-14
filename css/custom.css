@@ -1,0 +1,29 @@
+/*
+white: #f7f9f9;
+light-blue: #2081c3;
+dark-blue: #0a2c42;
+grey: #bfbfbf;
+font-family: Arial, Helvetica, sans-serif;
+}*/
+.body {
+  background-color: red;
+}
+
+.nav-image {
+  /* The image used */
+  background-image: url('/public/images/beer.png');
+  background-color: red;
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.herostage {
+  margin: 50px 50px;
+}
